@@ -1,0 +1,32 @@
+./configure --prefix=/usr/local/php7 \
+--with-mysql-sock --with-mysqli \
+--enable-fpm  --enable-soap \
+--with-libxml-dir --with-openssl \
+--with-mcrypt --with-mhash \
+--with-pcre-regex  --with-zlib \
+--enable-bcmath --with-iconv \
+--with-bz2 --enable-calendar \
+--with-curl --with-cdb --enable-dom \
+--enable-exif --enable-fileinfo \
+--enable-filter --with-pcre-dir \
+--enable-ftp --with-gd \
+--with-openssl-dir --with-jpeg-dir \
+--with-png-dir --with-zlib-dir \
+--with-freetype-dir \
+--enable-gd-native-ttf \
+--enable-gd-jis-conv --with-gettext \
+--with-gmp --with-mhash \
+--enable-json --enable-mbstring \
+--enable-mbregex \
+--enable-mbregex-backtrack \
+--with-libmbfl --with-onig \
+--enable-pdo --with-pdo-mysql \
+--with-zlib-dir  --with-readline \
+--enable-session --enable-shmop \
+--enable-simplexml --enable-sockets \
+--enable-sysvmsg --enable-sysvsem \
+--enable-sysvshm --enable-wddx \
+--with-libxml-dir  --with-xsl \
+--enable-zip \
+--enable-mysqlnd-compression-support \
+--with-pear --enable-intl
